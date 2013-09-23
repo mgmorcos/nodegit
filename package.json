@@ -43,7 +43,7 @@
     "ncp": "~0.4.2"
   },
   "scripts": {
-    "install": "node gen.js && node install.js",
+    "install": "brew install python && brew install cmake && node gen.js && node install.js",
     "test": "cd test && nodeunit nodegit.js",
     "gen": "node gen.js"
   }
